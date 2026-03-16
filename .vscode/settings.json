@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.vhd": "vhdl",
+    "*.vhdl": "vhdl"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "terminal.integrated.defaultProfile.linux": "bash"
+}

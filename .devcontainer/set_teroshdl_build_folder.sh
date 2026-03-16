@@ -1,0 +1,1 @@
+ln -sfn /home/vscode/.teroshdl/build "$PWD/build"

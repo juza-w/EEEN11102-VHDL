@@ -1,0 +1,24 @@
+{
+  "name": "VHDL + GHDL + Yosys + TerosHDL",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "teros-technology.teroshdl",
+        "surfer-project.surfer"
+      ],
+      "settings": {
+        "files.associations": {
+          "*.vhd": "vhdl",
+          "*.vhdl": "vhdl"
+        },
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup-tools.sh",
+  "remoteUser": "vscode"
+  
+}
