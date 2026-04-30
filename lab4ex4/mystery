@@ -1,0 +1,571 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity mystery is
+  port (
+    rst : in STD_LOGIC; 
+    clk : in STD_LOGIC;
+    d : in STD_LOGIC;  
+    e : in STD_LOGIC; 
+    a : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    b : in STD_LOGIC_VECTOR ( 3 downto 0 ); 
+    x : out STD_LOGIC_VECTOR ( 3 downto 0 ); 
+    y : out STD_LOGIC_VECTOR ( 3 downto 0 ) 
+  );
+end mystery;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity HXH544 is port (I : in std_logic; O : out std_logic); end;
+architecture X of HXH544 is begin O <= I; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity RvW288 is port (I : in std_logic; O : out std_logic); end;
+architecture X of RvW288 is begin O <= not I; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity PlD314 is port (I, CTL : in std_logic; O : out std_logic); end;
+architecture X of PlD314 is begin O <= I when CTL = '1' else 'Z'; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity KHW844 is port (O : out std_logic); end;
+architecture X of KHW844 is begin O <= '0'; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity FWK203 is port (O : out std_logic); end;
+architecture X of FWK203 is begin O <= '1'; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity Bwg515 is port (I0, I1 : in std_logic; O : out std_logic); end;
+architecture X of Bwg515 is begin O <= I0 or I1; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity YEi399 is port (I0, I1, I2 : in std_logic; O : out std_logic); end;
+architecture X of YEi399 is begin O <= I0 or I1 or I2; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity Fzw123 is port (I0, I1 : in std_logic; O : out std_logic); end;
+architecture X of Fzw123 is begin O <= I0 and I1; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity oZs699 is port (I0, I1, I2 : in std_logic; O : out std_logic); end;
+architecture X of oZs699 is begin O <= I0 and I1 and I2; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity pNY283 is port (I0, I1 : in std_logic; O : out std_logic); end;
+architecture X of pNY283 is begin O <= I0 xor I1; end;
+
+library IEEE; use IEEE.STD_LOGIC_1164.ALL;
+entity ggx681 is port (I, CE, CLK, SET, RST : in std_logic; O : out std_logic); end;
+architecture X of ggx681 is begin process (CLK, SET, RST) begin
+if SET = '1' then O <= '1'; elsif RST = '1' then O <= '0';
+elsif CLK'event and CLK = '1' then O <= I; end if; end process; end;
+
+architecture obscure of mystery is
+
+  signal wblzheywxb : STD_LOGIC; 
+  signal ylgvpgrdok : STD_LOGIC; 
+  signal nqjekumbsv : STD_LOGIC; 
+  signal ynzjtqorfs : STD_LOGIC; 
+  signal ynhaznqyva : STD_LOGIC; 
+  signal lxszmqsxnv : STD_LOGIC; 
+  signal rhzgdfqggp : STD_LOGIC; 
+  signal jiisbvdpwm : STD_LOGIC; 
+  signal hehrcvaduf : STD_LOGIC; 
+  signal clavjnvgmt : STD_LOGIC; 
+  signal adibuphcin : STD_LOGIC; 
+  signal blafwyhthm : STD_LOGIC; 
+  signal gmherzmdqt : STD_LOGIC; 
+  signal ikvqttemmq : STD_LOGIC; 
+  signal ejammnrzwx : STD_LOGIC; 
+  signal swvcmquple : STD_LOGIC; 
+  signal kqozmnpurt : STD_LOGIC; 
+  signal acttbqywix : STD_LOGIC; 
+  signal qlurmkontt : STD_LOGIC; 
+  signal rmshwasdnr : STD_LOGIC; 
+  signal alsqasrcym : STD_LOGIC; 
+  signal vpumrsnhau : STD_LOGIC; 
+  signal ctflxpgzws : STD_LOGIC; 
+  signal hlsqchvwws : STD_LOGIC; 
+  signal lduifjqaut : STD_LOGIC; 
+  signal rhlphonbot : STD_LOGIC; 
+  signal yhkcsfgvwh : STD_LOGIC; 
+  signal epnhmtmynh : STD_LOGIC; 
+  signal iuknbjngbo : STD_LOGIC; 
+  signal yuuudyxdow : STD_LOGIC; 
+  signal tgpouriouw : STD_LOGIC; 
+  signal xcuofolkqq : STD_LOGIC; 
+  signal hmbytwhvbf : STD_LOGIC; 
+  signal achlglqjoj : STD_LOGIC; 
+  signal vybwxofvee : STD_LOGIC; 
+  signal ulvqisgott : STD_LOGIC; 
+  signal vnxzgedigm : STD_LOGIC; 
+  signal cnhvccvcdu : STD_LOGIC; 
+  signal nbopmwiozl : STD_LOGIC; 
+  signal avlpjfvmpv : STD_LOGIC; 
+  signal wrqtbvexty : STD_LOGIC; 
+  signal gmvwpbrjhj : STD_LOGIC; 
+  signal ewdneomwjm : STD_LOGIC; 
+  signal bocirnpyho : STD_LOGIC; 
+  signal fqtnprluqa : STD_LOGIC; 
+  signal ohidaukhbx : STD_LOGIC; 
+  signal ybtyqwgwwj : STD_LOGIC; 
+  signal vhstkquqmd : STD_LOGIC; 
+  signal hikzdssfcj : STD_LOGIC; 
+  signal ivjqyztawz : STD_LOGIC; 
+  signal uyypcceaew : STD_LOGIC; 
+  signal wwkialsccc : STD_LOGIC; 
+  signal tnqotbxndv : STD_LOGIC; 
+  signal nuihwqyzvm : STD_LOGIC; 
+  signal eveenukyaa : STD_LOGIC; 
+  signal jobzhcsegf : STD_LOGIC; 
+  signal hfowjleqvz : STD_LOGIC; 
+  signal ubuhbrjacf : STD_LOGIC; 
+  signal rvdyaqthcd : STD_LOGIC; 
+  signal qwruquseqi : STD_LOGIC; 
+  signal lvclzekcww : STD_LOGIC; 
+  signal imhbeygjgl : STD_LOGIC; 
+  signal ecmjpsemrw : STD_LOGIC; 
+  signal lnbmxcqzcj : STD_LOGIC; 
+  signal knczpmiyan : STD_LOGIC; 
+  signal wiiezorbip : STD_LOGIC; 
+  signal avxbmncrpe : STD_LOGIC; 
+  signal fqgoshkmlx : STD_LOGIC; 
+  signal wshmpytekq : STD_LOGIC; 
+  signal ypnwzgkfqp : STD_LOGIC; 
+  signal rluozhtyku : STD_LOGIC; 
+  signal mifmnhjdnb : STD_LOGIC; 
+  signal azaglfjcem : STD_LOGIC; 
+  signal rffqpekgid : STD_LOGIC; 
+  signal fhlefuzooq : STD_LOGIC; 
+  signal ayqdizxxxw : STD_LOGIC; 
+  signal rasnvoadre : STD_LOGIC; 
+  signal haryzrzhhh : STD_LOGIC; 
+  signal goqfunvcrw : STD_LOGIC; 
+  signal verugaefro : STD_LOGIC; 
+  signal gapxwvzasq : STD_LOGIC; 
+  signal eemtkdatlq : STD_LOGIC; 
+  signal dwcbtjcjfw : STD_LOGIC; 
+  signal msuldyyedn : STD_LOGIC; 
+  signal muhbtmoneq : STD_LOGIC; 
+  signal nbasljjlez : STD_LOGIC; 
+  signal ztkyhfkxow : STD_LOGIC; 
+  signal zyehxitmzq : STD_LOGIC; 
+  signal jkcuwqenar : STD_LOGIC; 
+  signal afsblysvzk : STD_LOGIC; 
+  signal ucrrbsdibh : STD_LOGIC; 
+  signal tgfqokkreu : STD_LOGIC_VECTOR ( 3 downto 0 ); 
+begin
+  ljnjfgvcjpj : entity work.HXH544
+    port map (
+      I => clk, O => wblzheywxb
+    );
+  owwdobqatzp : entity work.HXH544
+    port map (
+      I => rst, O => ylgvpgrdok
+    );
+  wztzkuxzgju : entity work.HXH544
+    port map (
+      I => e, O => nqjekumbsv
+    );
+  vcyhzburjmo : entity work.HXH544
+    port map (
+      I => d, O => ynzjtqorfs
+    );
+  xsihlmxiiet : entity work.HXH544
+    port map (
+      I => a(0), O => ynhaznqyva
+    );
+  cuxrasytybs : entity work.HXH544
+    port map (
+      I => a(1), O => lxszmqsxnv
+    );
+  hcqbuicmkrt : entity work.HXH544
+    port map (
+      I => a(2), O => rhzgdfqggp
+    );
+  bifrruarent : entity work.HXH544
+    port map (
+      I => a(3), O => jiisbvdpwm
+    );
+  jdiuzoptibl : entity work.PlD314
+    port map (
+      I => hehrcvaduf, CTL => clavjnvgmt, O => x(0)
+    );
+  veioluximqk : entity work.PlD314
+    port map (
+      I => adibuphcin, CTL => blafwyhthm, O => x(1)
+    );
+  rzefliylwwk : entity work.PlD314
+    port map (
+      I => gmherzmdqt, CTL => ikvqttemmq, O => x(2)
+    );
+  vqlpncooarv : entity work.PlD314
+    port map (
+      I => ejammnrzwx, CTL => swvcmquple, O => x(3)
+    );
+  azvsrvefubu : entity work.PlD314
+    port map (
+      I => kqozmnpurt, CTL => acttbqywix, O => y(3)
+    );
+  ohwspmhyvce : entity work.PlD314
+    port map (
+      I => qlurmkontt, CTL => rmshwasdnr, O => y(2)
+    );
+  exgpdadfhbg : entity work.PlD314
+    port map (
+      I => alsqasrcym, CTL => vpumrsnhau, O => y(1)
+    );
+  khcyfybjlzt : entity work.PlD314
+    port map (
+      I => ctflxpgzws, CTL => hlsqchvwws, O => y(0)
+    );
+  dahqyllrked : entity work.HXH544
+    port map (
+      I => lduifjqaut, O => hehrcvaduf
+    );
+  splaypkxudh : entity work.HXH544
+    port map (
+      I => lduifjqaut, O => tgfqokkreu(0)
+    );
+  tqbeepvgslm : entity work.HXH544
+    port map (
+      I => rhlphonbot, O => clavjnvgmt
+    );
+  wiichvsqsqq : entity work.HXH544
+    port map (
+      I => nqjekumbsv, O => rhlphonbot
+    );
+  biyquvnrkmv : entity work.ggx681
+    port map (
+      I => yhkcsfgvwh, CE => yuuudyxdow, CLK => wblzheywxb, SET => epnhmtmynh, RST => iuknbjngbo, O => lduifjqaut
+    );
+  fssqgbxgfua : entity work.KHW844
+    port map (
+      O => epnhmtmynh
+    );
+  cjntldgkijh : entity work.FWK203
+    port map (
+      O => yuuudyxdow
+    );
+  zlrsnjezswr : entity work.pNY283
+    port map (
+      I0 => tgpouriouw, I1 => xcuofolkqq, O => yhkcsfgvwh
+    );
+  hmlyytxvrgj : entity work.KHW844
+    port map (
+      O => tgpouriouw
+    );
+  gckltqidcxv : entity work.oZs699
+    port map (
+      I0 => verugaefro, I1 => ynzjtqorfs, I2 => tgfqokkreu(0), O => hmbytwhvbf
+    );
+  fdvyeffdeiz : entity work.oZs699
+    port map (
+      I0 => gapxwvzasq, I1 => eemtkdatlq, I2 => ynhaznqyva, O => achlglqjoj
+    );
+  ovnzjegybie : entity work.Bwg515
+    port map (
+      I0 => hmbytwhvbf, I1 => achlglqjoj, O => xcuofolkqq
+    );
+  ikdbrjufvad : entity work.HXH544
+    port map (
+      I => vybwxofvee, O => adibuphcin
+    );
+  znszdglnnfr : entity work.HXH544
+    port map (
+      I => vybwxofvee, O => tgfqokkreu(1)
+    );
+  nzcsevvjesy : entity work.HXH544
+    port map (
+      I => ulvqisgott, O => blafwyhthm
+    );
+  ragakagtlif : entity work.HXH544
+    port map (
+      I => nqjekumbsv, O => ulvqisgott
+    );
+  ttbmzlhctdl : entity work.ggx681
+    port map (
+      I => vnxzgedigm, CE => yuuudyxdow, CLK => wblzheywxb, SET => epnhmtmynh, RST => iuknbjngbo, O => vybwxofvee
+    );
+  bdxtppgulhr : entity work.pNY283
+    port map (
+      I0 => cnhvccvcdu, I1 => nbopmwiozl, O => vnxzgedigm
+    );
+  uispcrpdbdn : entity work.KHW844
+    port map (
+      O => cnhvccvcdu
+    );
+  yicjibgpaaa : entity work.oZs699
+    port map (
+      I0 => dwcbtjcjfw, I1 => ynzjtqorfs, I2 => tgfqokkreu(1), O => avlpjfvmpv
+    );
+  oecfihkjuml : entity work.oZs699
+    port map (
+      I0 => msuldyyedn, I1 => muhbtmoneq, I2 => lxszmqsxnv, O => wrqtbvexty
+    );
+  yitguugzxgd : entity work.Bwg515
+    port map (
+      I0 => avlpjfvmpv, I1 => wrqtbvexty, O => nbopmwiozl
+    );
+  mlasgjretkf : entity work.HXH544
+    port map (
+      I => gmvwpbrjhj, O => gmherzmdqt
+    );
+  hlazquotklw : entity work.HXH544
+    port map (
+      I => gmvwpbrjhj, O => tgfqokkreu(2)
+    );
+  fuhaclsmpba : entity work.HXH544
+    port map (
+      I => ewdneomwjm, O => ikvqttemmq
+    );
+  kclfbvlegld : entity work.HXH544
+    port map (
+      I => nqjekumbsv, O => ewdneomwjm
+    );
+  doljdjeglme : entity work.ggx681
+    port map (
+      I => bocirnpyho, CE => yuuudyxdow, CLK => wblzheywxb, SET => epnhmtmynh, RST => iuknbjngbo, O => gmvwpbrjhj
+    );
+  orjzvubtrgm : entity work.pNY283
+    port map (
+      I0 => fqtnprluqa, I1 => ohidaukhbx, O => bocirnpyho
+    );
+  jzdvsrxeayw : entity work.KHW844
+    port map (
+      O => fqtnprluqa
+    );
+  cswnphhsvdp : entity work.oZs699
+    port map (
+      I0 => nbasljjlez, I1 => ynzjtqorfs, I2 => tgfqokkreu(2), O => ybtyqwgwwj
+    );
+  xefubmmyruv : entity work.oZs699
+    port map (
+      I0 => ztkyhfkxow, I1 => zyehxitmzq, I2 => rhzgdfqggp, O => vhstkquqmd
+    );
+  bbptbuvfpop : entity work.Bwg515
+    port map (
+      I0 => ybtyqwgwwj, I1 => vhstkquqmd, O => ohidaukhbx
+    );
+  jtabkxolubv : entity work.HXH544
+    port map (
+      I => hikzdssfcj, O => ejammnrzwx
+    );
+  nwhpbyyntpj : entity work.HXH544
+    port map (
+      I => hikzdssfcj, O => tgfqokkreu(3)
+    );
+  jkbxllfzaqd : entity work.HXH544
+    port map (
+      I => ivjqyztawz, O => swvcmquple
+    );
+  hcfrttgpkbx : entity work.HXH544
+    port map (
+      I => nqjekumbsv, O => ivjqyztawz
+    );
+  wjfmsafktdl : entity work.ggx681
+    port map (
+      I => uyypcceaew, CE => yuuudyxdow, CLK => wblzheywxb, SET => epnhmtmynh, RST => iuknbjngbo, O => hikzdssfcj
+    );
+  nvjlynwipyf : entity work.pNY283
+    port map (
+      I0 => wwkialsccc, I1 => tnqotbxndv, O => uyypcceaew
+    );
+  aatgtsorghi : entity work.KHW844
+    port map (
+      O => wwkialsccc
+    );
+  jxtzdtgtcyz : entity work.oZs699
+    port map (
+      I0 => jkcuwqenar, I1 => ynzjtqorfs, I2 => tgfqokkreu(3), O => nuihwqyzvm
+    );
+  mnbowmgwvnx : entity work.oZs699
+    port map (
+      I0 => afsblysvzk, I1 => ucrrbsdibh, I2 => jiisbvdpwm, O => eveenukyaa
+    );
+  hcdyfazqjjj : entity work.Bwg515
+    port map (
+      I0 => nuihwqyzvm, I1 => eveenukyaa, O => tnqotbxndv
+    );
+  jesitrijndm : entity work.HXH544
+    port map (
+      I => jobzhcsegf, O => kqozmnpurt
+    );
+  benmonzxinz : entity work.HXH544
+    port map (
+      I => hfowjleqvz, O => acttbqywix
+    );
+  vsnorycnpnt : entity work.HXH544
+    port map (
+      I => ubuhbrjacf, O => hfowjleqvz
+    );
+  grhsvvopssv : entity work.HXH544
+    port map (
+      I => rvdyaqthcd, O => jobzhcsegf
+    );
+  jhqqvftnysp : entity work.pNY283
+    port map (
+      I0 => qwruquseqi, I1 => lvclzekcww, O => rvdyaqthcd
+    );
+  lfowezniypl : entity work.KHW844
+    port map (
+      O => qwruquseqi
+    );
+  dpcgwcukmed : entity work.KHW844
+    port map (
+      O => lvclzekcww
+    );
+  bhbbbikaolk : entity work.KHW844
+    port map (
+      O => ubuhbrjacf
+    );
+  zfbkmqivyhx : entity work.HXH544
+    port map (
+      I => imhbeygjgl, O => qlurmkontt
+    );
+  qrkxdvrkfrf : entity work.HXH544
+    port map (
+      I => ecmjpsemrw, O => rmshwasdnr
+    );
+  avmrffsnxlm : entity work.HXH544
+    port map (
+      I => lnbmxcqzcj, O => ecmjpsemrw
+    );
+  bnswfpaxuqy : entity work.HXH544
+    port map (
+      I => knczpmiyan, O => imhbeygjgl
+    );
+  eysnrzaptws : entity work.pNY283
+    port map (
+      I0 => wiiezorbip, I1 => avxbmncrpe, O => knczpmiyan
+    );
+  ldhxidjtezz : entity work.KHW844
+    port map (
+      O => wiiezorbip
+    );
+  otqswdjnivs : entity work.KHW844
+    port map (
+      O => avxbmncrpe
+    );
+  cwkibdeahwn : entity work.KHW844
+    port map (
+      O => lnbmxcqzcj
+    );
+  dvxpduwatod : entity work.HXH544
+    port map (
+      I => fqgoshkmlx, O => alsqasrcym
+    );
+  igxzpnmifzo : entity work.HXH544
+    port map (
+      I => wshmpytekq, O => vpumrsnhau
+    );
+  haqjsgdcdqt : entity work.HXH544
+    port map (
+      I => ypnwzgkfqp, O => wshmpytekq
+    );
+  mfmpszgluvr : entity work.HXH544
+    port map (
+      I => rluozhtyku, O => fqgoshkmlx
+    );
+  dvemqtliock : entity work.pNY283
+    port map (
+      I0 => mifmnhjdnb, I1 => azaglfjcem, O => rluozhtyku
+    );
+  nugmqtbnlzb : entity work.KHW844
+    port map (
+      O => mifmnhjdnb
+    );
+  mxfenlfyavy : entity work.KHW844
+    port map (
+      O => azaglfjcem
+    );
+  lovtnnwdewa : entity work.KHW844
+    port map (
+      O => ypnwzgkfqp
+    );
+  fcfwgkoclri : entity work.HXH544
+    port map (
+      I => rffqpekgid, O => ctflxpgzws
+    );
+  hlibybtwboh : entity work.HXH544
+    port map (
+      I => fhlefuzooq, O => hlsqchvwws
+    );
+  jgrbespdlry : entity work.HXH544
+    port map (
+      I => ayqdizxxxw, O => fhlefuzooq
+    );
+  aeastoarpzi : entity work.HXH544
+    port map (
+      I => rasnvoadre, O => rffqpekgid
+    );
+  kgfhuyfviem : entity work.pNY283
+    port map (
+      I0 => haryzrzhhh, I1 => goqfunvcrw, O => rasnvoadre
+    );
+  rhhkglamwwp : entity work.KHW844
+    port map (
+      O => haryzrzhhh
+    );
+  eugtxhaeidp : entity work.KHW844
+    port map (
+      O => goqfunvcrw
+    );
+  snucskoskxu : entity work.KHW844
+    port map (
+      O => ayqdizxxxw
+    );
+  gedgrheivui : entity work.RvW288
+    port map (
+      I => ylgvpgrdok, O => verugaefro
+    );
+  fptematkyvc : entity work.RvW288
+    port map (
+      I => ylgvpgrdok, O => gapxwvzasq
+    );
+  xegvrckmsrv : entity work.RvW288
+    port map (
+      I => ynzjtqorfs, O => eemtkdatlq
+    );
+  yfzqurgyjoz : entity work.RvW288
+    port map (
+      I => ylgvpgrdok, O => dwcbtjcjfw
+    );
+  xydtycwseah : entity work.RvW288
+    port map (
+      I => ylgvpgrdok, O => msuldyyedn
+    );
+  bvdsluocksg : entity work.RvW288
+    port map (
+      I => ynzjtqorfs, O => muhbtmoneq
+    );
+  suqitgqrurb : entity work.RvW288
+    port map (
+      I => ylgvpgrdok, O => nbasljjlez
+    );
+  cuzdxqysmgx : entity work.RvW288
+    port map (
+      I => ylgvpgrdok, O => ztkyhfkxow
+    );
+  dekdxdmwqbt : entity work.RvW288
+    port map (
+      I => ynzjtqorfs, O => zyehxitmzq
+    );
+  xucpsiphump : entity work.RvW288
+    port map (
+      I => ylgvpgrdok, O => jkcuwqenar
+    );
+  ueemyvwybre : entity work.RvW288
+    port map (
+      I => ylgvpgrdok, O => afsblysvzk
+    );
+  zjtvzscphhq : entity work.RvW288
+    port map (
+      I => ynzjtqorfs, O => ucrrbsdibh
+    );
+
+
+  iuknbjngbo <= '0';
+
+end obscure;
+
