@@ -10,19 +10,9 @@ architecture testbench of tb_counter is
   signal clk    : std_logic;
   signal up     : std_logic;
   signal count  : std_logic_vector (7 downto 0);
-
-  component counter
-    port (
-      preset : in std_logic;
-      clk    : in std_logic;
-      up     : in std_logic;
-      count  : out std_logic_vector (7 downto 0)
-    );
-  end component;
-
 begin
 
-  uut : counter
+  uut : entity work.counter
   port map (
     preset => preset,
     clk    => clk,
